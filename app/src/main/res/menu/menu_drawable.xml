@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/icPM"
+        android:title="Quản lý Phiếu Mượn"
+        android:icon="@drawable/ic_baseline_home_24" />
+    <item android:id="@+id/icLS"
+        android:title="Quản lý Loại Sách"
+        android:icon="@drawable/ic_qls" />
+    <item android:id="@+id/icSach"
+        android:title="Quản lý Sách"
+        android:icon="@drawable/ic_qlls" />
+    <item android:id="@+id/icTV"
+        android:title="Quản lý Thành Viên"
+        android:icon="@drawable/ic_qltv" />
+    <item android:id="@+id/ictop"
+        android:title="10 Sách mượn nhiều nhất"
+        android:icon="@drawable/ic_top10" />
+    <item android:id="@+id/icDT"
+        android:title="Doanh thu"
+        android:icon="@drawable/ic_dt" />
+    <item android:id="@+id/icMK"
+        android:title="Đổi mật khẩu"
+        android:icon="@drawable/ic_dmk" />
+    <item android:id="@+id/icTTK"
+        android:title="Thêm tài khoản"
+        android:icon="@drawable/ictt" />
+    <item android:id="@+id/icDX"
+        android:title="Đăng xuất"
+        android:icon="@drawable/ic_dx" />
+
+
+
+
+</menu>

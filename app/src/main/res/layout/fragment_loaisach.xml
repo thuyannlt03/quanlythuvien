@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <TextView
+        android:id="@+id/Sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Loại Sách"
+        android:textSize="25dp"
+        android:textColor="#009688"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+    <ListView
+        android:id="@+id/listloaisach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_addloaisach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
